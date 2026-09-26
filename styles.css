@@ -98,8 +98,7 @@ footer{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;align-items:cente
 .footer-brand img{width:36px;height:36px;border-radius:50%}
 footer span{text-align:center}
 footer a{text-align:right;color:var(--cream);font-weight:800}
-.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
-.reveal.on{opacity:1;transform:none}
+.reveal{opacity:1;transform:none}.reveal.on{opacity:1;transform:none}
 @media(max-width:940px){
   .hero{grid-template-columns:1fr;gap:40px;min-height:auto;padding-top:120px}.hero-copy{max-width:780px}.hero-graphic{max-width:760px;width:100%}
   .intro-grid,.section-head,.stories,.standards{grid-template-columns:1fr;gap:34px}.story-gallery{max-width:760px}
